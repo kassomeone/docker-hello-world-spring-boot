@@ -31,4 +31,4 @@ jobs:
       run: docker tag mytag ghcr.io/kassomeone/docker-hello-world-spring-boot:latest
 
     - name: Push Docker image
-      run: docker push ghcr.io/kassomeone/docker-hello-world-spring-boot/:latest
+      run: docker push ghcr.io/kassomeone/docker-hello-world-spring-boot:latest
